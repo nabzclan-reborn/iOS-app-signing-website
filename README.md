@@ -1,11 +1,11 @@
-# iOS-app-signing-website
+# iOS app signing website
 Create your own iOS app signing website, powered by the CocoCloud signing API.
 
 # Steps
 
 - Get token from https://dashboard.api-aries.online/panel/
 
-- Place api token on code should be fund in line " 23 " in the code
+- Place api token on code should be found in line **23** in the code
 
 - Done
 
