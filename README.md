@@ -9,7 +9,7 @@ Create your own iOS app signing website, powered by the CocoCloud signing API.
 
 - Done
 
-#changelogs
+# Changelogs
 
 - v1.0
   - initial release 
