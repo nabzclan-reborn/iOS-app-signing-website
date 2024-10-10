@@ -64,7 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['csrf_token'])) {
         $full_file_path = reassemble_file($chunk_paths, $unique_file_name);
 
   
-        $ipa_url = 'https://testy2.nabzclan.vip/signer-tool/uploads/' . $unique_file_name;
+        $ipa_url = 'https://website/uploads/' . $unique_file_name;
 
     } elseif (isset($_POST['ipa_direct_link']) && !empty($_POST['ipa_direct_link'])) {
 
