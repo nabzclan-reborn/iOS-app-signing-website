@@ -7,6 +7,8 @@ Create your own iOS app signing website, powered by the CocoCloud signing API.
 
 - Place api token on code should be found in line **23** in the code
 
+- Place your websites url on line **67**
+
 - Done
 
 # Changelogs
