@@ -20,8 +20,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['csrf_token'])) {
         exit;
     }
 
-    $api_token = '111-111-111-111-111'; // Get Token: https://dashboard.api-aries.online/
-    $api_endpoint = 'https://api.api-aries.online/v1/cococloud/app-signer';
+    $api_token = '111-111-111-111-111'; // Get Token: https://dashboard.api-aries.com/
+    $api_endpoint = 'https://api.api-aries.com/v1/cococloud/app-signer';
 
     if (isset($_FILES['ipa_file']) && $_FILES['ipa_file']['error'] !== UPLOAD_ERR_NO_FILE) {
         $file = $_FILES['ipa_file'];
